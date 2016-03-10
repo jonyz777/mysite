@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'geosanslightregular';
+    src: url('font/geosanslight-webfont.eot');
+    src: url('font/geosanslight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/geosanslight-webfont.woff2') format('woff2'),
+         url('font/geosanslight-webfont.woff') format('woff'),
+         url('font/geosanslight-webfont.ttf') format('truetype'),
+         url('font/geosanslight-webfont.svg#geosanslightregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+	background-image: url("img/fondoslide.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#slide{
+	width: 100%;
+	height: 0px;
+	
+}
+/*.top{
+	width: 100%;
+	height: 30px;
+	background-color: #00cc00;
+} */
+
+.identidad{
+	width: 500px;
+	min-height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	display: flex;
+
+}
+.identidad img{
+	width: 50%;
+	height: 50%;
+	border-radius: 250px;
+}
+
+.identidad p {
+	color: #FFF;
+	margin-top: 35px;
+	text-align: justify;
+	font-family: 'geosanslightregular';
+	font-size: 16px;
+}
+
+.presentacion{
+	width: 100%;
+	min-height: 300px;
+	background-color: rgba(0,0,0,0.9);
+	margin-bottom: 100px;
+	padding-bottom: 100px;
+	z-index: 999;
+}
+
+.idenmovil {
+	width: 100%;
+	min-height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 50px;
+}
+.idenmovil img{
+	border-radius: 250px;
+}
+.idenmovil p{
+	text-align: justify;
+	padding: 10px;
+	font-family: 'geosanslightregular';
+	color: #FFF;
+}
+strong{
+	color: #00cc00;
+	font-size: 18px;
+}
+
+.trans{
+	width: 100%;
+	height: 100px;
+	
+}
+.textointro p {
+    text-align: justify;
+	padding: 10px;
+	font-family: 'geosanslightregular';
+	color: #FFF;
+	font-size: 20px;
+}
+.textointro{
+	border: 1px #FFF solid;
+	border-radius: 15px;
+	margin-top: 100px;
+}
+.boton{
+	padding: 10px;
+	background-color:#00cc00;
+	color: #FFF;
+	border: none;
+	transition:all .4s;
+}
+.boton:hover{
+   background-color:#39E639;
+   color: #000;
+}
+.nombre{
+	color: #00cc00;
+}
+#portfolio, #about{
+	background-color: rgba(0,0,0,0.6);
+}
+p.lead{
+	color: #FFF;
+}
+.section-title h2{
+	color:#00cc00;
+}
+.menu ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 10px;
+}
+.menu ul li a {
+	color: #fff;
+	font-size: 20px;
+}
+.menu ul {
+	display: flex;
+	font-family: 'geosanslightregular';
+}
+#contmenu{
+   margin-bottom: 50px;
+   z-index: 998;
+}
+.menuu{
+	margin-top: 5px;
+	margin-left: 10px;
+	position: fixed;
+}
+.menuu ul li {
+	background-color: rgba(0,0,0,0.6);
+}
+.menus{
+    margin-top: 120px;
+	margin-left: 10px;
+}
+.alto{
+	margin-top: 235px;
+
+}
+#iden{
+
+}
+
+.ext{
+	color: #FFF;
+}
